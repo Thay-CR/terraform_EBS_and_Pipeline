@@ -1,0 +1,9 @@
+vpc_id              = "vpc-x000000"
+Instance_type       = "t2.xxxxx"
+minsize             = 1
+maxsize             = 2
+application_subnets     = ["subnet-0x000000000", "subnet-0x0000000000"] 
+tier = "WebServer"
+solution_stack_name= "64bit Amazon Linux 2 v5.6.4 running Node.js 16" # run aws elasticbeanstalk list-available-solution-stacks
+elastic_beanstalk_application_name = "test"
+region = "us-xxx-1"
